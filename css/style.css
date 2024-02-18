@@ -1,0 +1,140 @@
+
+* {
+    margin: 3%;
+    padding: 0;
+}
+
+
+
+body {
+    animation: backgroundBG 10s infinite;
+
+}
+
+
+h1{
+    margin-left: auto;
+    margin-right: auto;
+   color: rgb(26, 26, 124);
+    font-family: "eixample-dip", sans-serif;
+font-weight: 800;
+font-style: normal;
+}
+
+img {
+    animation: imgbutterflyFLY  5s infinite;
+    /* This is a note to myself  */
+}
+
+.Flutterbys-flex-container {
+    display: flex;
+    width: 100vw;
+    height: 50vw;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.flutter {
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+}
+
+
+.flex-container {
+    display: flex;
+    width: 100vw;
+    height: 50vh;
+    flex-direction: row;
+    justify-content: center;
+    /* Shifts items on main acess */   
+}
+
+.flex-item {
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+}
+
+.nav-flex-container {
+    display: flex;
+    width: 100vw;
+    height: 50px;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.nav-item {
+    padding: 10px;
+    padding-top: 35px;
+    height: 100%;
+}
+
+.nav-item  a {
+text-decoration: none;
+color: black;
+}
+
+.nav-item::hover {
+background-color: azure;
+cursor: pointer;
+
+}
+
+
+
+/* Define the animation  */
+@keyframes backgroundBG {
+    /* Stage -  Properties - Values */
+    0% {
+        background-color: rgb(98, 235, 71);
+    }
+    20% {
+        background-color: deepskyblue;
+    }
+    50% {
+        background-color: yellow;
+    }
+    100% {
+        background-color: orange;
+    }
+}
+
+@keyframes imgbutterflyFLY {
+    /* Animate image */
+    0% {
+        width: 200px;
+    }
+    50% {
+        width: 500px;
+    }
+    100% {
+        width: 200px;
+    }
+}
+
+.headlines {
+    font-size: 20%;
+}
+
+h2 {
+    font-family: "citadel-inline", serif;
+font-weight: 72px;
+font-style: bold;
+}
+
+   
+
+h3 {
+    font-family: "eixample-dip", sans-serif;
+font-weight: 900;
+font-style: normal;
+
+}
+
+h4 {
+    font-family: "antiquarian-scribe", sans-serif;
+    font-weight: 56px;
+    font-style: bold;
+}
